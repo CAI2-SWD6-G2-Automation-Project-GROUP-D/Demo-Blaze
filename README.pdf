@@ -1,0 +1,43 @@
+# Demo-Blaze
+🎯 Main Objectives of the Project
+1️⃣ Improving Software Quality and Ensuring Website Stability
+Verify that the core functionalities of the Demo Blaze website work correctly without errors.
+Detect bugs and issues early before new updates are deployed.
+Ensure a smooth and error-free user experience while browsing the website and performing operations.
+2️⃣ Reducing Time and Effort Spent on Manual Testing
+Replace repetitive manual testing with more efficient automated tests.
+Minimize the need for human intervention, saving time and reducing human errors.
+Enable development teams to focus on enhancing features instead of repeated manual testing.
+3️⃣ Automating Testing for Various Essential Scenarios
+Test the website’s core features, including:
+✅ User login and registration.
+✅ Adding and removing products from the shopping cart.
+✅ Successfully completing the checkout and payment process.
+✅ User Interface (UI) Testing to ensure website compatibility across different devices.
+4️⃣ Supporting Cross-Platform and Cross-Browser Testing
+Run tests on different browsers, such as Google Chrome, Mozilla Firefox, and Microsoft Edge.
+Ensure the website works properly on various screen sizes and devices (desktop, mobile, tablet).
+5️⃣ Conducting Performance Testing and Analyzing Website Speed
+Measure the website's response time during essential operations.
+Identify performance bottlenecks and improve page loading speed.
+Ensure website performance under high user traffic.
+6️⃣ Providing Accurate and Detailed Test Reports
+Generate comprehensive reports on test results, including detected errors and execution time.
+Use tools like Allure Reports or Extent Reports to present test results in an organized manner.
+Capture screenshots of errors to facilitate issue analysis and resolution.
+7️⃣ Integration with Continuous Integration/Continuous Deployment (CI/CD) Systems
+Integrate tests with Jenkins or GitHub Actions to run them automatically with each new website update.
+Facilitate continuous deployment without the need for repetitive manual testing.
+📌 Expected Outcome of the Project
+✔️ Development of a comprehensive automation testing framework using Selenium.
+✔️ Improved testing efficiency while reducing time and effort.
+✔️ Ensured website stability and enhanced user experience.
+✔️ Detailed reports to help development teams improve performance and quickly fix errors.
+
+Team Members:
+1. Amr Mostafa Habib (TL)
+2. Shaimaa ibrahim
+3. Dana ahmed
+4. farah mohamed
+5. Seif ibrahim
+6. Huda amr
