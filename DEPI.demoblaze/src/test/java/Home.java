@@ -36,7 +36,8 @@ public class Home {
         wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Samsung galaxy s6"))).click();
         System.out.println("🔍 Clicked on Samsung Galaxy S6 product.");
 
-        wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[text()='Add to cart']"))).click();
+        wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='hrefch' and contains(text(),'Samsung galaxy s6')]")
+)).click();
         System.out.println("🛒 Clicked 'Add to cart'.");
 
         Alert alert = wait.until(ExpectedConditions.alertIsPresent());
@@ -50,7 +51,8 @@ public class Home {
 
     @Test
     public void validate_placing_an_Order() {
-        wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Samsung galaxy s6"))).click();
+        wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='hrefch' and contains(text(),'Samsung galaxy s6')]")
+)).click();
         System.out.println("🔍 Clicked on Samsung Galaxy S6 product.");
 
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[text()='Add to cart']"))).click();
