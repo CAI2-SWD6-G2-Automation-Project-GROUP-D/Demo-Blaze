@@ -25,7 +25,7 @@ public class Home {
     @Test
     public void validate_Adding_Product_to_Cart() throws InterruptedException {
         Thread.sleep(3000);
-        driver.findElement(By.xpath("//*[@id='tbodyid']/div[1]/div/div/h4/a")).click();
+        driver.findElement(By.xpath("//a[text()='Samsung galaxy s6']")).click();
         Thread.sleep(4000);
         driver.findElement(By.xpath("//a[contains(text(),'Add to cart')]")).click();
         Thread.sleep(3000);
@@ -41,7 +41,7 @@ public class Home {
    @Test
     public void validate_placing_an_Order()throws InterruptedException{
        Thread.sleep(3000);
-        driver.findElement(By.xpath("//*[@id='tbodyid']/div[1]/div/div/h4/a")).click();
+       driver.findElement(By.xpath("//a[text()='Samsung galaxy s6']")).click();
        Thread.sleep(4000);
        driver.findElement(By.xpath("//a[contains(text(),'Add to cart')]")).click();
        Thread.sleep(3000);
