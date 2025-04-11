@@ -2,8 +2,9 @@
 <suite name="DemoBlazeSuite">
     <test name="DemoBlazeTests">
         <classes>
-            <class name="your.package.name.YourTestClass" />
+            <class name="Home"/>
+            <class name="Login"/>
+            <class name="SignUp"/>
         </classes>
     </test>
 </suite>
-
