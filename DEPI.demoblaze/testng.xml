@@ -2,7 +2,7 @@
 <suite name="DemoBlazeSuite">
     <test name="DemoBlazeTests">
         <classes>
-<!--             <class name="Home"/> -->
+            <class name="Home"/>
             <class name="Login"/>
             <class name="SignUp"/>
         </classes>
