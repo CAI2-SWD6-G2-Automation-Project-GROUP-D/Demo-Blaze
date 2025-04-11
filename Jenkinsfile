@@ -1,4 +1,4 @@
-def gv
+def gv = null  // Declare globally, if you need to access it in multiple stages
 
 pipeline {
     agent any
@@ -10,7 +10,7 @@ pipeline {
         stage("init") {
             steps {
                 script {
-                   gv = load "script.groovy" 
+                    gv = load "script.groovy"
                 }
             }
         }
@@ -24,7 +24,7 @@ pipeline {
         stage("test") {
             when {
                 expression {
-                    params.executeTests
+                    return params.executeTests
                 }
             }
             steps {
@@ -40,5 +40,5 @@ pipeline {
                 }
             }
         }
-    }   
+    }
 }
