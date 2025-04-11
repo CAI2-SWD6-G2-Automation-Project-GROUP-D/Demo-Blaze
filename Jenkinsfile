@@ -2,6 +2,9 @@ def gv = null  // Declare globally, if you need to access it in multiple stages
 
 pipeline {
     agent any
+        tools {
+        maven 'Maven_3.9.4'  // This name must match what you configured in Jenkins
+    }
     parameters {
         choice(name: 'VERSION', choices: ['1.1.0', '1.2.0', '1.3.0'], description: '')
         booleanParam(name: 'executeTests', defaultValue: true, description: '')
