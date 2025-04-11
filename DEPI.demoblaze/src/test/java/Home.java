@@ -18,7 +18,7 @@ public class Home {
 
     @AfterTest
     public void AfterTest() {
-        //driver.quit();
+        driver.quit();
         System.out.println("Test completed.");
     }
 
