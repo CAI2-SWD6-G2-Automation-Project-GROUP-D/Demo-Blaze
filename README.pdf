@@ -17,9 +17,7 @@ Test the website’s core features, including:
 4️⃣ Supporting Cross-Platform and Cross-Browser Testing
 Run tests on different browsers, such as Google Chrome, Mozilla Firefox, and Microsoft Edge.
 Ensure the website works properly on various screen sizes and devices (desktop, mobile, tablet).
-5️⃣ Conducting Performance Testing and Analyzing Website Speed
-Measure the website's response time during essential operations.
-Identify performance bottlenecks and improve page loading speed.
+5️⃣ API Testing Using Postman.
 Ensure website performance under high user traffic.
 6️⃣ Providing Accurate and Detailed Test Reports
 Generate comprehensive reports on test results, including detected errors and execution time.
@@ -40,4 +38,3 @@ Team Members:
 3. Dana ahmed
 4. farah mohamed
 5. Saif ibrahim
-6. Huda amr
