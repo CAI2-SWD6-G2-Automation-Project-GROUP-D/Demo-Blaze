@@ -16,7 +16,7 @@ def deployApp() {
     echo "📦 Archiving reports and logs..."
     dir('DEPI.demoblaze') {
         junit '**/target/surefire-reports/*.xml'
-        archiveArtifacts artifacts: '**/target/**/*.log, **/target/screenshots/**', fingerprint: true
+        archiveArtifacts allowEmptyArchive: true, artifacts: '**/target/**/*.log, **/target/screenshots/**'
     }
 }
 
