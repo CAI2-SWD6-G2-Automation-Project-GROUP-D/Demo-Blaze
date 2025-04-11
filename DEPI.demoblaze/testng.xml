@@ -1,1 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="DemoBlazeSuite">
+    <test name="DemoBlazeTests">
+        <classes>
+            <class name="your.package.name.YourTestClass" />
+        </classes>
+    </test>
+</suite>
 
