@@ -26,6 +26,7 @@ Capture screenshots of errors to facilitate issue analysis and resolution.
 7️⃣ Integration with Continuous Integration/Continuous Deployment (CI/CD) Systems
 Integrate tests with Jenkins or GitHub Actions to run them automatically with each new website update.
 Facilitate continuous deployment without the need for repetitive manual testing.
+8️⃣ Creating Test Cases on Trello Board.
 📌 Expected Outcome of the Project
 ✔️ Development of a comprehensive automation testing framework using Selenium.
 ✔️ Improved testing efficiency while reducing time and effort.
